@@ -21,3 +21,6 @@ fetch(/* Need the provide API URL to get all countries */)
     // 2 - You can use the cardTemplate() function to create a div with a class card already styled
     // 💡 you can use countriesNode variable to add elements
   });
+
+
+//TODO: una vez terminado el fetch pasarlo a axios

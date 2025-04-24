@@ -2,13 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-#countries {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 55px;
-  justify-content: center;
-}
-
 .center {
   text-align: center;
 }
@@ -18,6 +11,13 @@ body {
   box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   border-radius: 16px;
   margin: 20px;
+}
+
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 55px;
+  justify-content: center;
 }
 
 #flag-image {
