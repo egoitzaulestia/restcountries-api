@@ -16,7 +16,6 @@ const countriesNode = document.getElementById("countries");
 //   })
 //   .then(function (countries) {
 //     // Here is where you'll need to add into the DOM all the countries received from API 
-
 //     // 1 - We will need to iterate the countries variable with a loop
 //     // 2 - You can use the cardTemplate() function to create a div with a class card already styled
 //     // 💡 you can use countriesNode variable to add elements
