@@ -59,8 +59,11 @@ const getCountriesData = async () => {
     // const continents = [...new Set(countries.flatMap(country => country.continents))];
     // console.log(continents);
 
+
     
     countries.forEach(country => {
+
+      uniqueContinents.forEach()
       // if (loadCountriesByContinent) {
         // countriesNode.innerHTML += loadCountriesByContinent(country)
       // }
