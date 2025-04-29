@@ -17,7 +17,7 @@ const getCountriesData = async () => {
     }
 
     const countries = await response.json();
-    console.log(countries)
+    // console.log(countries)
 
     // Sort countries by their common name
     countries.sort((a, b) => a.name.common.localeCompare(b.name.common));
@@ -39,14 +39,14 @@ const getCountriesData = async () => {
         uniqueContinents.push(continent);
       }
     });
-    console.log(uniqueContinents)
+    // console.log(uniqueContinents)
     
     // Pro version of getting unique continents
     // const continents = [...new Set(countries.flatMap(country => country.continents))];
     // console.log(continents);
 
     loadContinents(uniqueContinents)
-    console.log(continentSelect.value)
+    // console.log(continentSelect.value)
 
     countriesNode.innerHTML = ''; // clear previous
 
